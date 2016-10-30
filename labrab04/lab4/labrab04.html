@@ -1,0 +1,67 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>labrab04</title>
+</head>
+<style>
+    body {
+        font-family: "Tahoma";
+    }
+    #form {
+        width: 500px;
+        height: 350px;
+        background: cornflowerblue;
+    }
+    #result {
+        width: 500px;
+        height: 150px;
+        background: yellow;
+    }
+    #form, #result {
+        text-align: center;
+        margin: auto;
+    }
+    .posForm {
+        position: relative;
+        top: 50%;
+    }
+    .posForm#quest {
+        font-size:30px;
+        margin-bottom: 10px;
+    }
+    #gen {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    img {
+        position: absolute;
+        /*top: 250px;*/
+        /*left:1080px;*/
+    }
+</style>
+
+
+<body>
+    <div id="form">
+
+        <div id="quest" class="posForm">
+        </div>
+
+        <div class="posForm">
+
+            <input type="text" size="30" id="in">
+            <button onclick="test(sum)">Проверить</button>
+
+        </div>
+
+    </div>
+
+    <div id="result"></div>
+
+    <img src="sun.gif" alt="sun" id="im" onmouseover="change()">
+
+    <script src="functions.js"></script>
+
+</body>
+</html>

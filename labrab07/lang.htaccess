@@ -1,0 +1,2 @@
+AddDefaultCharset windows-1251
+AddLanguage ru .html .htm .phtml .php .php3 .txt .dat .inc

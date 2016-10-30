@@ -1,0 +1,14 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+#names {
+	width: 250px;
+    text-align: center;
+    background-color: lightpink;
+}
+#biog {
+    width: 700px;
+    background-color: azure;
+}
